@@ -22,7 +22,7 @@ function Footer(){
 
     const FooterStyle = {
         height: "50px", 
-        backgroundColor: "green", 
+        backgroundColor: "tan", 
         display: "grid", 
         alignItems: "center", 
         justifyContent: "center", 
