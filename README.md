@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+**Deployed Link** https://pauleerama93.netlify.app/
 
-In the project directory, you can run:
+Being a web developer means being part of a community. You’ll need a place to share your projects not only if you're applying for jobs or working as a freelancer but also so that you can share your work with fellow developers and collaborate on future projects.
 
-### `npm start`
+This project is a portfolio website built using React, designed to help set you apart from other developers by showcasing your work with the latest technologies. The application is a single-page portfolio that demonstrates your skills, projects, and contact information, and is deployed on Netlify.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Credits](#credits)
+- [License](#license)
 
-### `npm test`
+## User Story
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As an employer looking for candidates with experience building single-page applications,  
+I want to view a potential employee's deployed React portfolio of work samples  
+So that I can assess whether they're a good candidate for an open position.
 
-### `npm run build`
+## Acceptance Criteria
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Given** a single-page application portfolio for a web developer
+  - **When** I load the portfolio
+    - **Then** I am presented with a page containing a header, a section for content, and a footer.
+  - **When** I view the header
+    - **Then** I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio.
+  - **When** I view the navigation titles
+    - **Then** I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
+  - **When** I click on a navigation title
+    - **Then** I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted.
+  - **When** I load the portfolio the first time
+    - **Then** the About Me title and section are selected by default.
+  - **When** I am presented with the About Me section
+    - **Then** I see a recent photo or avatar of the developer and a short bio about them.
+  - **When** I am presented with the Portfolio section
+    - **Then** I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository.
+  - **When** I am presented with the Contact section
+    - **Then** I see a contact form with fields for a name, an email address, and a message.
+  - **When** I move my cursor out of one of the form fields without entering text
+    - **Then** I receive a notification that this field is required.
+  - **When** I enter text into the email address field
+    - **Then** I receive a notification if I have entered an invalid email address.
+  - **When** I am presented with the Resume section
+    - **Then** I see a link to a downloadable resume and a list of the developer’s proficiencies.
+  - **When** I view the footer
+    - **Then** I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on another platform.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/react-portfolio.git
 
-### `npm run eject`
+2. Navigate to the project directory:
+    ```sh
+    cd react-portfolio
+3. Install the dependencies:
+    ```sh
+    npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
+1. Start the development server:
+    ```sh
+    npm start
+2. Open your browser and navigate to http://localhost:3000 to view the portfolio.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
+This project is deployed on Netlify. Follow these steps to deploy your own version:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Create a production build:
+    ```sh
+    npm run build
+2. Follow the instructions here:https://vitejs.dev/guide/static-deploy.html#netlify-with-git to deploy the build to Netlify. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
+![Home Page](./images/HomePage.png) - Home Page
 
-## Learn More
+![About](./images/About.png) - About
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![GitHub](./images/GitHub.png) - Portfolio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Resume](./images/Resume.png) - Resume 
+## Credits
+Special thanks to my teachers, Drew and Kyle, for their guidance and support in teaching me the right methods to complete this module. Drew's speed runs were particularly helpful.
 
-### Code Splitting
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
