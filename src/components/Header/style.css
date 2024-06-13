@@ -1,15 +1,21 @@
 .header-container {
     background-color: rgb(195, 192, 188);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
     padding-right: 1rem;
     padding-left: 1rem;
+}
 
+.image-container {
+    max-width: 100%;
+    height: 700px;
+    overflow: hidden; 
 }
 
 img {
     max-width: 100%;
-    height: 700px;
+    height: auto; 
+    display: block; 
 }

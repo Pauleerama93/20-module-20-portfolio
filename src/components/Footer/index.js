@@ -5,19 +5,18 @@ function Footer(){
     const icons = [
         {
             name: "fa-brands fa-github",
-            links: "htttp://github.com"
+            links: "https://github.com/Pauleerama93"
         },
         {
             name: "fa-brands fa-linkedin",
-            links: "https://linkedin.com/"
+            links: "https://www.linkedin.com/in/ronald-nelson-41582a267/"
         }
     ]
 
     const LinkStyle = {
         textDecoration: "none", 
         color: "black", 
-        cursor:"pointer",
-        margin: "0 3px"
+        cursor:"pointer"
     }
 
     const FooterStyle = {

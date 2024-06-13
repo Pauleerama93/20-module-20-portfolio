@@ -1,0 +1,29 @@
+.resume-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.resume-heading {
+    margin-bottom: 20px;
+}
+
+.resume-heading h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.resume-heading h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.resume-heading p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
