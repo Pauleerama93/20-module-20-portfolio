@@ -28,7 +28,7 @@ function Footer(){
         gridGap: "15px"
     }
 
-    let year = new Date().getFullYear();
+    // let year = new Date().getFullYear();
     
     return (
         <footer style={FooterStyle}>
